@@ -1,0 +1,255 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #faff81;   
+    overflow: hidden;
+}
+.container {
+    overflow: scroll;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+    height: 90vh;
+    width: 350px;
+    background-color:#b26700;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    
+}
+
+.header-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.status {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.status h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.start-btn {
+    padding: 10px 15px;
+    background-color: #000;
+    border: none;
+    color: #ffc107;
+    border-radius: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.quantify-section {
+    text-align: center;
+    padding: 20px 10px;
+}
+
+.trading-visual {
+    width: 100%;
+    max-width: 300px;
+    margin: 0 auto 20px;
+}
+
+.quantify-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.section {
+    background-color:#c96a03;
+    padding: 20px;
+    margin: 10px 0;
+}
+
+.card {
+    background-color: #e06d06;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+
+.details-btn {
+    padding: 5px 10px;
+    margin-left: 0;
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+   
+}
+
+.details-img {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.Rice_meat-details li {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.payment {
+    font-size: 12px;
+    margin: 5px 0;
+        
+}
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    
+
+}
+
+.icons img {
+    width: 30px;
+    border: 1px;
+    border-radius: 50%; 
+}
+
+.bottom-nav {
+    background-color: #e06d06;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top:92vh;
+    width: 350px;
+    border: none;
+    border-radius: 10px;
+}
+
+.bottom-nav a {
+    color:black;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    flex-grow: 1;
+}
+
+.bottom-nav a.active {
+    color: #e06d06;
+}
+
+.profile {
+    position: absolute;
+    top: 20vh;
+    right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.menu {
+    padding: 20px;
+    position: absolute;
+    top: 130px;
+   
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 0;
+    
+    
+}
+
+.menu-item img {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    border: 1px;
+    border-radius: 50%;
+}
+
+.menu-item span {
+    font-size: 14px;
+}
+
+.menu-item a {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    transition: background-color 0.3s;
+}
+
+.menu-item a:hover {
+    background-color:#faff81;
+    border-radius: 5px;
+}
+
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    padding: 5px;
+}
+h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: black;   
+}
+
+h4{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: black;
+}
+
+h10 {
+    position:absolute;
+    left: 45%; 
+    top: 15vh;
+}
+
+
+.dashboard-content {
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #4cae4c;
+}
+
+
+.placeOrder-btn{
+    padding: 5px 10px;
+    background-color: #ffc107;
+    border: none;
+    color: #000;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+   
+}
+
+
+
